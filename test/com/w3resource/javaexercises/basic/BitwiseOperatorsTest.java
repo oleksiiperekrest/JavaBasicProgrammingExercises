@@ -36,4 +36,18 @@ class BitwiseOperatorsTest {
         assertEquals(14, bit.or(b, c));
         assertEquals(15, bit.or(a, c));
     }
+
+    @Test
+    void xor() {
+        assertEquals(7, bit.xor(a, b));
+        assertEquals(10, bit.xor(b, c));
+        assertEquals(13, bit.xor(a, c));
+    }
+
+    @Test
+    void onesComplement() {
+        assertEquals(-4, bit.onesComplement(a));
+        assertEquals(-5, bit.onesComplement(b));
+        assertEquals(-15, bit.onesComplement(c));
+    }
 }

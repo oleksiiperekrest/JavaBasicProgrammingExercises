@@ -17,4 +17,13 @@ public class BitwiseOperators {
     public int or (int a, int b) {
         return a | b;
     }
+
+    public int xor (int a, int b) {
+        return a ^ b;
+    }
+
+    public int onesComplement(int a) {
+        return ~a;
+    }
+
 }

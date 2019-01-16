@@ -7,9 +7,9 @@ public class Program {
 
     public static void main (String[] args) {
         var bits = new BitwiseOperators();
-        System.out.println(bits.binaryValue(8));
-        System.out.println(bits.binaryValue(15));
-        System.out.println(bits.binaryValue(27));
+        System.out.println(bits.onesComplement(8) + " " + bits.binaryValue(bits.onesComplement(8)));
+//        System.out.println(bits.binaryValue(15));
+//        System.out.println(bits.binaryValue(27));
 
 
     }
